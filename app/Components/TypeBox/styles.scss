@@ -1,0 +1,107 @@
+@value colors: '../../globalStyles/colors.scss';
+@value bg-fire, bg-water, bg-grass, bg-electric, bg-ground, bg-rock from colors;
+@value bg-poison, bg-ghost, bg-normal, bg-flying, bg-psychic, bg-dark from colors;
+@value bg-fighting, bg-ice, bg-steel, bg-bug, bg-dragon, bg-fairy from colors;
+.typeBox {
+    border: {
+        style: solid;
+        width: 1px;
+        collapse: collapse;
+        radius: 10px;
+    }
+
+    width: 100px;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center
+}
+
+.fireBox {
+    composes: typeBox;
+    background-color: bg-fire;
+}
+
+.waterBox {
+    composes: typeBox;
+    background-color: bg-water;
+}
+
+.grassBox {
+    composes: typeBox;
+    background-color: bg-grass;
+}
+
+.electricBox {
+    composes: typeBox;
+    background-color: bg-electric;
+}
+
+.groundBox {
+    composes: typeBox;
+    background-color: bg-ground;
+}
+
+.rockBox {
+    composes: typeBox;
+    background-color: bg-rock;
+}
+
+.poisonBox {
+    composes: typeBox;
+    background-color: bg-poison;
+}
+
+.ghostBox {
+    composes: typeBox;
+    background-color: bg-ghost;
+}
+
+.normalBox {
+    composes: typeBox;
+    background-color: bg-normal;
+}
+
+.flyingBox {
+    composes: typeBox;
+    background-color: bg-flying;
+}
+
+.psychicBox {
+    composes: typeBox;
+    background-color: bg-psychic;
+}
+
+.darkBox {
+    composes: typeBox;
+    background-color: bg-dark;
+}
+
+.fightingBox {
+    composes: typeBox;
+    background-color: bg-fighting;
+}
+
+.iceBox {
+    composes: typeBox;
+    background-color: bg-ice;
+}
+
+.steelBox {
+    composes: typeBox;
+    background-color: bg-steel;
+}
+
+.bugBox {
+    composes: typeBox;
+    background-color: bg-bug;
+}
+
+.dragonBox {
+    composes: typeBox;
+    background-color: bg-dragon;
+}
+
+.fairyBox {
+    composes: typeBox;
+    background-color: bg-fairy;
+}

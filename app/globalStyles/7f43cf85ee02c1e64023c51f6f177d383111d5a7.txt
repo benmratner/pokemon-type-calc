@@ -1,0 +1,43 @@
+/* type background colors */
+@value bg-fire:       #E38544;
+@value bg-water:      #6F90E9;
+@value bg-grass:      #8AC560;
+@value bg-electric:   #F2D154;
+@value bg-ground:     #DBC175;
+@value bg-rock:       #B4A04B;
+@value bg-poison:     #95489B;
+@value bg-ghost:      #6C5A94;
+@value bg-normal:     #A8A87D;
+@value bg-flying:     #A492EA;
+@value bg-psychic:    #E97999;
+@value bg-dark:       #6D594A;
+@value bg-fighting:   #B23C31;
+@value bg-ice:        #A5D6D7;
+@value bg-steel:      #B8B8CE;
+@value bg-bug:        #ABB742;
+@value bg-dragon:     #6841EF;
+@value bg-fairy:      #E39DAC;
+
+
+
+/*
+// Type Text Colors
+// $text-fire = #
+// $text-water = #
+// $text-grass = #
+// $text-electric = #
+// $text-ground = #
+// $text-rock = #
+// $text-posion = #
+// $text-ghost = #
+// $text-normal = #
+// $text-$flying = #
+// $text-psychic = #
+// $text-dark = #
+// $text-fighting = #
+// $text-ice = #
+// $text-steel = #
+// $text-bug = #
+// $text-dragon = #
+// $text-fairy = #
+*/
